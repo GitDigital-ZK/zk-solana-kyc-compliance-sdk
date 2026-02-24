@@ -1,5 +1,5 @@
 #!/usr/bin/env ts-node
-import { Connection, PublicKey, clusterApiUrl } from '@solana/web3.js';
+import { Connection, PublicKey } from '@solana/web3.js';
 import { SolanaKYCClient } from '../../src/client';
 import { Environment } from '../../src/utils/env';
 import axios from 'axios';
