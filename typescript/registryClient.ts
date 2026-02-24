@@ -23,7 +23,7 @@ export async function buildIssueAttestationIx(
   params: IssueParams
 ): Promise<TransactionInstruction> {
   const { wallet, programId } = params;
-  const [attestationPda, bump] = await PublicKey.findProgramAddress(
+  const [attestationPda] = await PublicKey.findProgramAddress(
     [Buffer.from("attestation"), wallet.toBuffer()],
     programId
   );
