@@ -1,7 +1,7 @@
 // This goes ONLY in solana-kyc-sdk repo
 import { SolanaKYCClient } from '../src';
 import { Connection, Keypair } from '@solana/web3.js';
-import { describe, test, expect, beforeAll } from '@jest/globals';
+import { describe, test, beforeAll } from '@jest/globals';
 
 describe('KYC SDK Integration', () => {
   let kycClient: SolanaKYCClient;
