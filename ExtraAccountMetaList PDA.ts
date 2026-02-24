@@ -1,7 +1,7 @@
 import * as anchor from "@coral-xyz/anchor";
 
-export async function initializeExtraAccounts(
-  program: anchor.Program<any>,
+export async function initializeExtraAccounts<T extends anchor.Idl>(
+  program: anchor.Program<T>,
   mint: anchor.web3.PublicKey,
   payer: anchor.web3.Keypair
 ) {
