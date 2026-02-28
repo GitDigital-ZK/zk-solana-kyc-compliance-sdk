@@ -1,5 +1,6 @@
 This is a comprehensive update for your README.md, designed to align with high-quality Solana ecosystem standards. It includes a "Badge Wall," clear architectural overviews, and technical implementation details based on your repository's focus on Token Extensions (Transfer Hooks & Permanent Delegates).
 Updated README.md
+
 # Solana KYC Compliance SDK 🛡️
 
 [![GitHub License](https://img.shields.io/github/license/gitdigital-products/solana-kyc-compliance-sdk?style=for-the-badge&color=blue)](LICENSE)
@@ -120,7 +121,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 | **AI Enforcement** | ![Beta](https://img.shields.io/badge/Status-Beta-orange) | SendAI / Range Risk API |
 | **Audit Logs** | ![Verified](https://img.shields.io/badge/Status-Verified-green) | Permanent Delegate / Events |
 
-markdown
+```markdown
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 
@@ -147,7 +148,7 @@ markdown
 
 <!-- Community Badges -->
 ![Governance](https://img.shields.io/badge/governance-partial-orange)
-
+```
 
 
 **Core Badge Verification Workflow** (`.github/workflows/badge-verification.yml`):
@@ -194,7 +195,7 @@ jobs:
 
 
 
-`markdown
+markdown
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 `
@@ -203,10 +204,10 @@ jobs:
 
 <!-- Technology Badges -->
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-`
 
 
-`markdown
+
+markdown
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 ![Security Scanning](https://img.shields.io/badge/security-scanning-active-green)
