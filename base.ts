@@ -272,7 +272,8 @@ export class SumSubKYCProvider implements KYCProvider {
   }
 
   private generateSessionId(): string {
-    return `sub_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    const randomSuffix = randomBytes(16).toString('hex').slice(0, 9);
+    return `sub_${Date.now()}_${randomSuffix}`;
   }
 }
 
