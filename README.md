@@ -1,6 +1,21 @@
 <a href='https://ko-fi.com/T6T61WAZYZ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 
+
+GET /v1/repo/{org}/{repo}/status
+
+{
+  "tier": "Resilience Verified",
+  "source_status": "Private",
+  "proven_metrics": ["continuity", "stickiness"],
+  "unproven_metrics": ["dependency", "risk_coverage"],
+  "scores": { "H": 0.72, "P": 0.21 },
+  "limitations": "P score capped at 0.3 without DependencyCircuit",
+  "upgrade_path": "Open source library code to unlock Public Good Certified"
+}
+
+
+
 ```mermaid
     graph TD;
     A[User] -->|Submits KYC Info| B(SDK);
